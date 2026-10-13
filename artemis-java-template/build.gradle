@@ -67,6 +67,9 @@ dependencies {
 //    pmd "org.apache.commons:commons-lang3:${commons_lang3_version}"
     checkstyle "org.apache.commons:commons-lang3:${commons_lang3_version}"
     checkstyle "com.puppycrawl.tools:checkstyle:${checkstyle_version}"
+
+    // Einfprog testing library
+    testImplementation "io.github.andino20:einfprog-jrunit:0.2.0"
 }
 
 abstract class AresJvmArguments implements CommandLineArgumentProvider {
